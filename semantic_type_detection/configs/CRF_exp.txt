@@ -1,0 +1,13 @@
+MAX_COL_COUNT = 30
+batch_size = 512
+train_test_split = split_file_name
+header = header_file_name
+feature = feature_file_name
+
+epoch = 50
+patience = 5
+
+pre_trained_sherlock_path = sherlock.pt
+
+model_name = CRF_exp
+num = 10

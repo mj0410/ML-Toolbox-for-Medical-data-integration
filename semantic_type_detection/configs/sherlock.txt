@@ -1,0 +1,8 @@
+train_test_split = split_file_name
+header = header_file_name
+sherlock_feature = feature_file_name
+
+epoch = 50
+batch_size = 512
+
+model_name = sherlock
