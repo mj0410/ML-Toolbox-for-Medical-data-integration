@@ -1,13 +1,12 @@
 ### Development and Evaluation of a Machine Learning Toolbox for Medical Data Integration
 
 ### Goal
-> Automation of tasks to integrate digital health data </br>
-> Create an integrated table of good quality with the application of machine learning
+> Automate a part of integration of digital health data </br>
+> Provide initial insights into the applicability of machine learning algorithms to the integration of medical data
 
 ### Workflow of Toolbox
 
-<img src="./IMAGE/workflow.png" width="45%">
-<img src="./IMAGE/workflow2.png" width="45%">
+<img src="./IMAGE/workflow.png" width="48%"> &nbsp;&nbsp;&nbsp; <img src="./IMAGE/workflow2.png" width="48%">
 
 ````diff
 - Input
@@ -23,7 +22,7 @@ Types : date of birth, date of death, patient id, medication, clinical notes, et
 ````
 
 
-##### Tools
+### Tools
 
 ***Sato: Contextual Semantic Type Detection in Tables (2020)*** [link](http://www.vldb.org/pvldb/vol13/p1835-zhang.pdf)
 > <sup> [Sato github](https://github.com/megagonlabs/sato) </br>
@@ -32,6 +31,8 @@ Types : date of birth, date of death, patient id, medication, clinical notes, et
 ***DeepTable: a permutation invariant neural network for table orientation classification (2020)*** [link](https://link.springer.com/content/pdf/10.1007/s10618-020-00711-x.pdf)
 > <sup> [DeepTable github](https://github.com/Marhabibi/DeepTable) </sup>
 
-##### Databases
+### Databases
 
-synthetic EHR [Synthea paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7651916/) [Synthea data](https://synthea.mitre.org/)
+***synthetic EHR***
+> <sup> [Synthea paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7651916/) </br>
+> [Synthea data](https://synthea.mitre.org/) </sup>
